@@ -52,7 +52,7 @@ STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/SPIDEYOFFICIAL_777/10'))
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 PREFIX = environ.get("PREFIX", "/")
 
-CHAT_GROUP = int(environ.get("CHAT_GROUP", ""))
+CHAT_GROUP = int(environ.get("CHAT_GROUP", "-1002453024937"))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6497757690 5115691197').split()]
